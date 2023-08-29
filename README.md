@@ -8,7 +8,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-pdf-mrc-compression-demo.png" alt="VintaSoft PDF MRC Compression Demo">
+<img src="vintasoft-pdf-mrc-compression-demo.png" title="VintaSoft PDF MRC Compression Demo">
 
 
 ## Usage
