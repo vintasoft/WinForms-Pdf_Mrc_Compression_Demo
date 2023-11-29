@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
@@ -30,7 +30,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -217,15 +217,15 @@
       <DependentUpon>SelectDeviceManagerModeForm.cs</DependentUpon>
     </EmbeddedResource>
     <Content Include="App.ico" />
-    <Content Include="Resources\DotNet6\VintasoftTwainService.exe">
+    <Content Include="Resources\DotNet8\VintasoftTwainService.exe">
       <Link>VintasoftTwainService.exe</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\DotNet6\VintasoftTwainService.dll">
+    <Content Include="Resources\DotNet8\VintasoftTwainService.dll">
       <Link>VintasoftTwainService.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\DotNet6\VintasoftTwainService.runtimeconfig.json">
+    <Content Include="Resources\DotNet8\VintasoftTwainService.runtimeconfig.json">
       <Link>VintasoftTwainService.runtimeconfig.json</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

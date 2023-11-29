@@ -81,16 +81,16 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <PackageReference Include="Vintasoft.Imaging" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="7.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.UI" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Twain" Version="14.0.8.1" />
-    <PackageReference Include="Vintasoft.Shared" Version="4.0.0.3" />
+    <PackageReference Include="Vintasoft.Imaging" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="7.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.UI" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Twain" Version="14.1.0.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.1.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemosCommonCode.Imaging\AssembliesLoader\Jbig2AssemblyLoader.cs">
@@ -270,13 +270,4 @@
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
-  <PropertyGroup>
-  </PropertyGroup>
 </Project>
