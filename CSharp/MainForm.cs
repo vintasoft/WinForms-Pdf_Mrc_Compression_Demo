@@ -339,7 +339,7 @@ namespace PdfMrcCompressionDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of OpenToolStripMenuItem object.
+        /// Handles the Click event of openToolStripMenuItem object.
         /// </summary>
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -362,7 +362,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddToolStripMenuItem object.
+        /// Handles the Click event of addToolStripMenuItem object.
         /// </summary>
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -378,7 +378,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AcquireFromScannerToolStripMenuItem object.
+        /// Handles the Click event of acquireFromScannerToolStripMenuItem object.
         /// </summary>
         private void acquireFromScannerToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -403,7 +403,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseAllToolStripMenuItem object.
+        /// Handles the Click event of closeAllToolStripMenuItem object.
         /// </summary>
         private void closeAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -411,7 +411,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of MrcCompressionSettingsToolStripMenuItem object.
+        /// Handles the Click event of mrcCompressionSettingsToolStripMenuItem object.
         /// </summary>
         private void mrcCompressionSettingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -419,7 +419,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveToPdfToolStripMenuItem object.
+        /// Handles the Click event of saveToPdfToolStripMenuItem object.
         /// </summary>
         private void saveToPdfToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -445,7 +445,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -459,7 +459,7 @@ namespace PdfMrcCompressionDemo
         #region 'Help' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -475,7 +475,7 @@ namespace PdfMrcCompressionDemo
         #region Image regions
 
         /// <summary>
-        /// Handles the CheckedChanged event of DetectImagesManualRadioButton object.
+        /// Handles the CheckedChanged event of detectImagesManualRadioButton object.
         /// </summary>
         private void detectImagesManualRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -500,7 +500,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the CheckedChanged event of DetectImagesAutoRadioButton object.
+        /// Handles the CheckedChanged event of detectImagesAutoRadioButton object.
         /// </summary>
         private void detectImagesAutoRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -508,7 +508,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DetectImagesButton object.
+        /// Handles the Click event of detectImagesButton object.
         /// </summary>
         private void detectImagesButton_Click(object sender, EventArgs e)
         {
@@ -558,7 +558,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of DetectImagesAutoSettingsButton object.
+        /// Handles the Click event of detectImagesAutoSettingsButton object.
         /// </summary>
         private void detectImagesAutoSettingsButton_Click(object sender, EventArgs e)
         {
@@ -573,7 +573,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddImageRegionButton object.
+        /// Handles the Click event of addImageRegionButton object.
         /// </summary>
         private void addImageRegionButton_Click(object sender, EventArgs e)
         {
@@ -608,7 +608,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveImageRegionButton object.
+        /// Handles the Click event of removeImageRegionButton object.
         /// </summary>
         private void removeImageRegionButton_Click(object sender, EventArgs e)
         {
@@ -640,7 +640,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveAllImageRegionsButton object.
+        /// Handles the Click event of removeAllImageRegionsButton object.
         /// </summary>
         private void removeAllImageRegionsButton_Click(object sender, EventArgs e)
         {
@@ -648,7 +648,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of ImageRegionsComboBox object.
+        /// Handles the SelectedIndexChanged event of imageRegionsComboBox object.
         /// </summary>
         private void imageRegionsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -658,7 +658,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Format event of ImageRegionsComboBox object.
+        /// Handles the Format event of imageRegionsComboBox object.
         /// </summary>
         private void imageRegionsComboBox_Format(object sender, ListControlConvertEventArgs e)
         {
@@ -671,7 +671,7 @@ namespace PdfMrcCompressionDemo
         #region Text regions
 
         /// <summary>
-        /// Handles the CheckedChanged event of DetectTextManualRadioButton object.
+        /// Handles the CheckedChanged event of detectTextManualRadioButton object.
         /// </summary>
         private void detectTextManualRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -725,7 +725,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AddTextRegionButton object.
+        /// Handles the Click event of addTextRegionButton object.
         /// </summary>
         private void addTextRegionButton_Click(object sender, EventArgs e)
         {
@@ -745,7 +745,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveTextRegionButton object.
+        /// Handles the Click event of removeTextRegionButton object.
         /// </summary>
         private void removeTextRegionButton_Click(object sender, EventArgs e)
         {
@@ -783,7 +783,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of RemoveAllTextRegionsButton object.
+        /// Handles the Click event of removeAllTextRegionsButton object.
         /// </summary>
         private void removeAllTextRegionsButton_Click(object sender, EventArgs e)
         {
@@ -791,7 +791,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the SelectedIndexChanged event of TextRegionsComboBox object.
+        /// Handles the SelectedIndexChanged event of textRegionsComboBox object.
         /// </summary>
         private void textRegionsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -801,7 +801,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Format event of TextRegionsComboBox object.
+        /// Handles the Format event of textRegionsComboBox object.
         /// </summary>
         private void textRegionsComboBox_Format(object sender, ListControlConvertEventArgs e)
         {
@@ -814,7 +814,7 @@ namespace PdfMrcCompressionDemo
         #region Image viewer
 
         /// <summary>
-        /// Handles the FocusedIndexChanged event of ImageViewer object.
+        /// Handles the FocusedIndexChanged event of imageViewer object.
         /// </summary>
         private void imageViewer_FocusedIndexChanged(object sender, FocusedIndexChangedEventArgs e)
         {
@@ -833,7 +833,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the ImageLoadingProgress event of ImageViewer object.
+        /// Handles the ImageLoadingProgress event of imageViewer object.
         /// </summary>
         private void imageViewer_ImageLoadingProgress(object sender, ProgressEventArgs e)
         {
@@ -842,7 +842,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the KeyDown event of ImageViewer object.
+        /// Handles the KeyDown event of imageViewer object.
         /// </summary>
         private void imageViewer_KeyDown(object sender, KeyEventArgs e)
         {
@@ -893,7 +893,7 @@ namespace PdfMrcCompressionDemo
         #region Binarization
 
         /// <summary>
-        /// Handles the CheckedChanged event of BinarizationRadioButton object.
+        /// Handles the CheckedChanged event of binarizationRadioButton object.
         /// </summary>
         private void binarizationRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -902,7 +902,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the Click event of AdaptiveBinarizationButton object.
+        /// Handles the Click event of adaptiveBinarizationButton object.
         /// </summary>
         private void adaptiveBinarizationButton_Click(object sender, EventArgs e)
         {
@@ -924,7 +924,7 @@ namespace PdfMrcCompressionDemo
         #region Visual tool
 
         /// <summary>
-        /// Handles the FocusedRectangleChanged event of SelectionTool object.
+        /// Handles the FocusedRectangleChanged event of selectionTool object.
         /// </summary>
         private void selectionTool_FocusedRectangleChanged(object sender, PropertyChangedEventArgs<RectangularSelection> e)
         {
@@ -966,7 +966,7 @@ namespace PdfMrcCompressionDemo
         }
 
         /// <summary>
-        /// Handles the FocusedRectangleInteractionFinished event of SelectionTool object.
+        /// Handles the FocusedRectangleInteractionFinished event of selectionTool object.
         /// </summary>
         private void selectionTool_FocusedRectangleInteractionFinished(object sender, EventArgs e)
         {
