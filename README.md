@@ -1,4 +1,4 @@
-# VintaSoft WinForms PDF MRC Compression Demo
+﻿# VintaSoft WinForms PDF MRC Compression Demo
 
 This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and demonstrates how to compress PDF document using MRC compression:
 * Load images from file, acquire images from scanner.
@@ -19,9 +19,9 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("PdfMrcCompressionDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("PdfMrcCompressionDemo.Net10.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build PdfMrcCompressionDemo.Net8.csproj
+   dotnet build PdfMrcCompressionDemo.Net10.csproj
    ```
 
 4. Run compiled application and try to compress PDF document using MRC compression.
