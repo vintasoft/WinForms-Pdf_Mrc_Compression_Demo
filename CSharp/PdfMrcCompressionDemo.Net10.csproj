@@ -12,7 +12,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>    
     <EnableDefaultItems>false</EnableDefaultItems>
-    <Version>15.0.0.1</Version>
+    <Version>15.0.1.1</Version>
     <AssemblyName>PdfMrcCompressionDemo</AssemblyName>
     <RootNamespace>PdfMrcCompressionDemo</RootNamespace>
     <StartupObject>PdfMrcCompressionDemo.Program</StartupObject>
@@ -34,14 +34,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Vintasoft.Imaging" Version="15.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="15.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="10.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="12.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="11.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="12.0.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.UI" Version="15.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="15.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Gdi" Version="15.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="10.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="12.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.1.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf.Mrc" Version="12.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.UI" Version="15.0.1.1" />
     <PackageReference Include="Vintasoft.Twain" Version="15.3.3.1" />
     <PackageReference Include="Vintasoft.Shared" Version="4.6.1.1" />
   </ItemGroup>
@@ -198,15 +198,15 @@
       <DependentUpon>SelectDeviceManagerModeForm.cs</DependentUpon>
     </EmbeddedResource>
     <Content Include="App.ico" />
-    <Content Include="..\..\..\..\Bin\DotNet10\AnyCPU\VintasoftTwainService.exe">
+    <Content Include="Resources\DotNet10\VintasoftTwainService.exe">
       <Link>VintasoftTwainService.exe</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\..\..\Bin\DotNet10\AnyCPU\VintasoftTwainService.dll">
+    <Content Include="Resources\DotNet10\VintasoftTwainService.dll">
       <Link>VintasoftTwainService.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\..\..\Bin\DotNet10\AnyCPU\VintasoftTwainService.runtimeconfig.json">
+    <Content Include="Resources\DotNet10\VintasoftTwainService.runtimeconfig.json">
       <Link>VintasoftTwainService.runtimeconfig.json</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
