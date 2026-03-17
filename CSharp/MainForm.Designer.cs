@@ -1,4 +1,4 @@
-namespace PdfMrcCompressionDemo
+﻿namespace PdfMrcCompressionDemo
 {
     partial class MainForm
     {
@@ -35,7 +35,7 @@ namespace PdfMrcCompressionDemo
             Vintasoft.Imaging.UI.ThumbnailAppearance thumbnailAppearance5 = new Vintasoft.Imaging.UI.ThumbnailAppearance();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.imageViewerToolStrip = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.imageViewerToolStrip = new CommonCode.Imaging.ImageViewerToolStrip();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -797,7 +797,7 @@ namespace PdfMrcCompressionDemo
         private System.Windows.Forms.Button removeImageRegionButton;
         private System.Windows.Forms.Button detectImagesAutoSettingsButton;
         private System.Windows.Forms.Button detectImagesButton;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip imageViewerToolStrip;
+        private CommonCode.Imaging.ImageViewerToolStrip imageViewerToolStrip;
         private System.Windows.Forms.Button addTextRegionButton;
         private System.Windows.Forms.Button removeTextRegionButton;
         private System.Windows.Forms.RadioButton detectTextManualRadioButton;
