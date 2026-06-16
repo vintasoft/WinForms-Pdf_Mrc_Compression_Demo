@@ -104,6 +104,16 @@ namespace PdfMrcCompressionDemo
         #region Constructor
 
         /// <summary>
+        /// Initializes the <see cref="MainForm"/> class.
+        /// </summary>
+        static MainForm()
+        {
+            // load assemblies
+            Jbig2AssemblyLoader.Load();
+            Jpeg2000AssemblyLoader.Load();
+        }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="MainForm"/> class.
         /// </summary>
         public MainForm()
@@ -112,10 +122,6 @@ namespace PdfMrcCompressionDemo
             Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
 
             InitializeComponent();
-
-            // load assemblies
-            Jbig2AssemblyLoader.Load();
-            Jpeg2000AssemblyLoader.Load();
 
             this.Text = _title;
 
